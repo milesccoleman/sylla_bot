@@ -30,3 +30,35 @@ english_bot = ChatBot("English Bot",
 
 ## License
 This source is free to use, but ChatterBot does have a license which still applies and can be found on the [LICENSE](https://github.com/gunthercox/ChatterBot/blob/master/LICENSE) page.
+
+
+//make new PythonAnywhere app
+//add new app
+//select Flask - Python 3.6
+//change the "mysite" portion of /home/youraccountname/mysite/flask_app.py to "syllabot"
+//change the "flask_app.py" portion of /home/youraccountname/mysite/falsk_app.py to "app.py"
+//click next
+//after your app is made, go to the "files" tab
+//navigate to the file that is named "syllabot" and delete it
+//open a bash console on PythonAnywhere and run the following commands:
+
+git clone https://github.com/milesccoleman/syllabot.git syllabot
+cd syllabot
+pip install -r requirements.txt
+pip install chatterbot
+
+
+//navigate to the file "syllabot"
+//open requirements.txt
+//replace "chatterbot>=0.7.1" to "chatterbot==0.7.4"
+//save that file
+//go back to the bash console, and enter the following commands:
+
+cd syllabot
+pip3 install --user -r requirements.txt
+
+//go back to the web tab for your app
+//click "reload"
+//navigate to the site URL to see if your bot lives
+
+
