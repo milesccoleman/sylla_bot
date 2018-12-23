@@ -65,6 +65,7 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 6. Select "Python 3.6"
 7. Change /home/youraccountname/`mysite`/flask_app.py to `sylla_bot`
 8. Change /home/youraccountname/sylla_bot/`flask_app.py` to `app.py`
+   You should end up with something like `/home/youraccountname/sylla_bot/app.py`
 9. Click next
 10. Go to the "Files" tab at the top of the page
 11. Delete the file `sylla_bot/`
