@@ -1,6 +1,6 @@
 This is a machine-learning assisted chatbot designed to learn your syllabus and be able to answer questions from it. 
 
-Sylla_bot is built from chamkank's [Flask Implimmentation of Chatterbot](https://github.com/chamkank/flask-chatterbot), which was built from [ChatterBot](https://github.com/gunthercox/ChatterBot). 
+Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/chamkank/flask-chatterbot) of [ChatterBot](https://github.com/gunthercox/ChatterBot). 
 
 # Quick Start
 Setting up sylla_bot is relatively simple. Even if you don't program, you will be able to follow the steps below to get your own syllabus into a workign chatbot. 
@@ -21,7 +21,7 @@ Who instructor professor teacher teaches
 Dr. Miles Coleman
 ```
 
-Notice that the user's question is listed first, with the answer content listed second. This will be the format of your entire file. Also, you will see that I am only including the bare miniumum the machine would need to guess what information chunk the user is asking for (which included variations of verbs and nouns--e.g., teacher and teaches). This will make it less likely to confuse the bot. Be direct and descriptive, focus on the "meat" of your inquiries. 
+Notice that the user's question is listed first, with the answer content listed second. This will be the format of your entire file. Also, you will see that I am only including a minimized version of the question the machine would need in order to retrieve the information chunk the user is asking for (which included variations of verbs and nouns--e.g., teacher and teaches). This will make it less likely to confuse the bot. Be direct and descriptive, focus on the "meat" of your inquiries. 
 
 Let's say I also have information about my course schedule, including readings and assignments. Because the `.txt` file will eventually be interpreted as HTML, I can use `<br>`s to format my contents with paragraph breaks. This is super helpful as much of this content can be fairly muddy to read without that formatting. Here's an example. 
 
@@ -30,9 +30,9 @@ Week 1 January 7
 Topic: <br>Defining Digital Rhetoric (F2F)<br><br>Readings: <br>Hahn, L. K. & Paynton, S. T. . Rhetorical criticism. In Survey of Communication Study. <br>Deuze, M. (2006). Participation, remediation, bricolage: Considering principal components of a digital culture. The information society, 22(2), 63-75. <br>Hess, A. (2018 . Introduction: Theorizing digital rhetoric. In Theorizing Digital Rhetoric. <br><br>Assignments: <br>Community Activity 1 <br>Student Survey <br>Reading Quiz 1. 
 ```
 
-Because I want students to be able to ask what is due on a given week, as well as to be able to ask for a specific week of the term, I have included both of those nouns in the inquiry line.
+Because I want students to be able to ask what is due on a given week, as well as to be able to ask for a specific week of the term, I have included both of those nouns (i.e., "Week 1" and "Janurary 7") in the inquiry line.
 
-Each of the `<br>`s helps to format my blob content from the information chunk I've included. 
+Each of the `<br>`s helps to format my blob of content from the information chunk I've included. 
 
 Rendered in HTML, that content would be: 
 
