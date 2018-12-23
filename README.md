@@ -38,7 +38,7 @@ Each of the `<br>`s helps to format my blob of content from the information chun
 
 Rendered in HTML, that content would be: 
 
-...Topic: <br>Defining Digital Rhetoric (F2F)<br><br>Readings: <br>Hahn, L. K. & Paynton, S. T. . Rhetorical criticism. In Survey of Communication Study. <br>Deuze, M. (2006). Participation, remediation, bricolage: Considering principal components of a digital culture. The information society, 22(2), 63-75. <br>Hess, A. (2018 . Introduction: Theorizing digital rhetoric. In Theorizing Digital Rhetoric. <br><br>Assignments: <br>Community Activity 1 <br>Student Survey <br>Reading Quiz 1. 
+⋅⋅⋅Topic: <br>Defining Digital Rhetoric (F2F)<br><br>Readings: <br>Hahn, L. K. & Paynton, S. T. . Rhetorical criticism. In Survey of Communication Study. <br>Deuze, M. (2006). Participation, remediation, bricolage: Considering principal components of a digital culture. The information society, 22(2), 63-75. <br>Hess, A. (2018 . Introduction: Theorizing digital rhetoric. In Theorizing Digital Rhetoric. <br><br>Assignments: <br>Community Activity 1 <br>Student Survey <br>Reading Quiz 1. 
 
 Between each question/answer information chunk, I include a space to help read the content easier. 
 
