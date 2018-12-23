@@ -24,6 +24,12 @@ h3 {
     margin-top: 60px;
 }
 
+#sylla_bot {
+	width: 25%;
+	height: 25%; 
+	float: left; 
+}
+
 #userInput {
     margin-left: auto;
     margin-right: auto;
@@ -37,12 +43,18 @@ h3 {
     border-bottom: 3px solid #009688;
     font-family: monospace;
     font-size: 17px;
+    border-style: solid;
+    border-color: LightGray; 
+  	border-width: 1px;
+  	border-radius: 15px; 
 }
 
 #buttonInput {
     padding: 3px;
     font-family: monospace;
     font-size: 17px;
+    background-color: lightblue; 
+    border-radius: 15px; 
 }
 
 .userText {
@@ -54,9 +66,9 @@ h3 {
 }
 
 .userText span {
-    background-color: blue;
+    background-color: #005ce6;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 
 .botText {
@@ -68,9 +80,9 @@ h3 {
 }
 
 .botText span {
-    background-color: purple;
+    background-color: Gray;
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 
 #tidbit {
