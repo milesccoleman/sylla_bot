@@ -12,6 +12,7 @@ Setting up sylla_bot is relatively simple. Even if you don't program, you will b
 ## Formatting the Syllabus
 This might sound redundant, especially if you're like me and spend hours putting in headings and lists to make your syllabi readable. But, because we'll be rendering our syllabus into little chunks to be repeated by the bot, we'll need to help the bot do its job. 
 
+### Making the Syllabus Bot-Readable
 First, you'll need to "chunk" your syllabus content onto complementary lines. The way the software will read your syllabus is based on associated sequences of characters compared across lines as they are listed in the text file. 
 
 So, if I have a `.txt` file of my syllabus, and in that file I have the instructor's name, and I want to make that accessible when someone eventually asked the bot who teaches the course, I would put the following in my text file. 
@@ -23,6 +24,7 @@ Dr. Miles Coleman
 
 Notice that the user's question is listed first, with the answer content listed second. This will be the format of your entire file. Also, you will see that I am only including a minimized version of the question the machine would need in order to retrieve the information chunk the user is asking for (which included variations of verbs and nouns--e.g., teacher and teaches). This will make it less likely to confuse the bot. Be direct and descriptive, focus on the "meat" of your inquiries. 
 
+### Formatting for Human Eyes
 Let's say I also have information about my course schedule, including readings and assignments. Because the `.txt` file will eventually be interpreted as HTML, I can use `<br>`s to format my contents with paragraph breaks. This is super helpful as much of this content can be fairly muddy to read without that formatting. Here's an example. 
 
 ```
@@ -36,7 +38,7 @@ Each of the `<br>`s helps to format my blob of content from the information chun
 
 Rendered in HTML, that content would be: 
 
-Topic: <br>Defining Digital Rhetoric (F2F)<br><br>Readings: <br>Hahn, L. K. & Paynton, S. T. . Rhetorical criticism. In Survey of Communication Study. <br>Deuze, M. (2006). Participation, remediation, bricolage: Considering principal components of a digital culture. The information society, 22(2), 63-75. <br>Hess, A. (2018 . Introduction: Theorizing digital rhetoric. In Theorizing Digital Rhetoric. <br><br>Assignments: <br>Community Activity 1 <br>Student Survey <br>Reading Quiz 1. 
+...Topic: <br>Defining Digital Rhetoric (F2F)<br><br>Readings: <br>Hahn, L. K. & Paynton, S. T. . Rhetorical criticism. In Survey of Communication Study. <br>Deuze, M. (2006). Participation, remediation, bricolage: Considering principal components of a digital culture. The information society, 22(2), 63-75. <br>Hess, A. (2018 . Introduction: Theorizing digital rhetoric. In Theorizing Digital Rhetoric. <br><br>Assignments: <br>Community Activity 1 <br>Student Survey <br>Reading Quiz 1. 
 
 Between each question/answer information chunk, I include a space to help read the content easier. 
 
