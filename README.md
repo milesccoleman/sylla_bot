@@ -56,8 +56,49 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 
 ## Deploying to PythonAnwhere
 
+### Part I
 1. Open your PythonAnywhere dashboard
-2. 
+2. Go to the "Web" tab
+3. Click on "Add a new web app"
+4. Unless you have a custom domain you'd like to use, ignore simply click next to accept the PythonAnywhere domain you are assigned. 
+5. Select "Flask" 
+6. Select "Python 3.6"
+7. Change /home/youraccountname/`mysite`/flask_app.py to `sylla_bot`
+8. Change /home/youraccountname/sylla_bot/`flask_app.py` to `app.py`
+9. Click next
+10. Go to the "Files" tab at the top of the page
+11. Delete the file `sylla_bot/`
+12. Click on the "Consoles" tab at the top of the page
+13. Start a new "Bash" console
+14. Enter the following commands one at a time
+```
+git clone https://github.com/milesccoleman/sylla_bot.git sylla_bot
+cd sylla_bot
+pip install -r requirements.txt
+```
+
+### Part II
+1. Go back to the "Files" tab 
+2. Navigate to and click on `sylla_bot/`
+3. Open `chats.txt`
+4. Replace the contents of `chats.txt` with your own formatted syllabus content
+5. Click "Save" 
+
+### Part II
+1. Go back to the "Files" tab 
+2. Navigate to and click on `sylla_bot/`
+3. Open `chats.txt`
+4. Replace the contents of `chats.txt` with your own formatted syllabus content
+5. Click "Save" 
+
+### Part III
+1. Navigate to the "Consoles" tab
+2. Open another "Bash" console and enter the following commands
+```
+cd sylla_bot
+python3 app.py
+```
+
 
 After you all finished formatting, save your text file as `chats.txt`.
 //make new PythonAnywhere app
