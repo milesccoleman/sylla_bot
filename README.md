@@ -7,7 +7,7 @@ Setting up sylla_bot is relatively simple. Even if you don't program, you will b
 
 #### Things You Will Need Before Starting
 1. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
-2. A [PythonAnwhere](https://www.pythonanywhere.com) account.
+2. A [Heroku](https://heroku.com) account.
 
 ## Formatting the Syllabus
 This might sound redundant, especially if you're like me and spend hours putting in headings and lists to make your syllabi readable. But, because we'll be rendering our syllabus into little chunks to be repeated by the bot, we'll need to help the bot do its job. 
@@ -54,26 +54,27 @@ Topic: <br>Asking Questions about Digital Rhetoric (At Home)<br><br>Readings: <b
 
 Find a complete example of a syllabus `.txt` file at the bottom of this page. 
 
-## Deploying to PythonAnwhere
+## Deploying to Heroku
 
 ### Part I
-1. Open your PythonAnywhere dashboard
-2. Go to the "Web" tab
-3. Click on "Add a new web app"
-4. Unless you have a custom domain you'd like to use, ignore simply click next to accept the PythonAnywhere domain you are assigned. 
-5. Select "Flask" 
-6. Select "Python 3.6"
-7. Change /home/youraccountname/`mysite`/flask_app.py to `sylla_bot`
-8. Change /home/youraccountname/sylla_bot/`flask_app.py` to `app.py`
-   You should end up with something like `/home/youraccountname/sylla_bot/app.py`
-9. Click next
-10. Go to the "Files" tab at the top of the page
-11. Delete the file `sylla_bot/`
-12. Click on the "Consoles" tab at the top of the page
-13. Start a new "Bash" console
-14. Enter the following commands one at a time
+1. Open your Heroku dashboard
+2. Click "New" --> "Create new app"
+3. Name your app anything you want. I've chosen "syllabusbot" 
+4. Choose your appropriate region. I've chosen "United States"
+5. Click "Create App" 
+6. Click on "Settings" 
+7. Click "Add buildpack" 
+8. Click "Python" 
+9. Click "More" --> "Run console" 
+10. Enter the following command
 ```
-git clone https://github.com/milesccoleman/sylla_bot.git sylla_bot
+bash
+```
+11. After the Bash console (i.e., "$") opens, enter the following commands, one at a time
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+git clone https://github.com/milesccoleman/sylla_bot.git
 cd sylla_bot
 pip install -r requirements.txt
 ```
