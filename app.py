@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 bot = ChatBot('LBH_BOT',
     filters=["chatterbot.filters.RepetitiveResponseFilter"], 
-    read_only=True,
+    read_only=False,
 )             
 
 conv = open('chats.txt', 'r').readlines()
