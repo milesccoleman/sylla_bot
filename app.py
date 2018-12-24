@@ -5,7 +5,6 @@ from chatterbot import ChatBot
 app = Flask(__name__)
 
 bot = ChatBot('LBH_BOT',
-    storage_adapter=["chatterbot.storage.SQLStorageAdapter"],
     filters=["chatterbot.filters.RepetitiveResponseFilter"], 
     read_only=False,
 )             
