@@ -4,7 +4,7 @@ Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/cha
 
 #### Live Example Here
 
-<iframe src="https://syllabusbot.herokuapp.com" height="25%" width="25%"></iframe>
+<iframe src="https://syllabusbot.herokuapp.com" height="50%" width="50%"></iframe>
 
 # Quick Start
 Setting up sylla_bot is relatively simple. Even if you don't program, you will be able to follow the steps below to get your own syllabus into a workign chatbot. 
