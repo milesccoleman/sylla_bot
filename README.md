@@ -1,12 +1,12 @@
 [home](https://milesccoleman.com)
 
-This is a machine-learning assisted chatbot designed to learn your syllabus and be able to answer questions from it. 
-
-Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/chamkank/flask-chatterbot) of [ChatterBot](https://github.com/gunthercox/ChatterBot). 
-
 #### Live Example Here
 
 <iframe src="https://digitalrhetoric-syllabot.herokuapp.com" height="100%" width="100%"></iframe>
+
+This is a machine-learning assisted chatbot designed to learn your syllabus and be able to answer questions from it. 
+
+Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/chamkank/flask-chatterbot) of [ChatterBot](https://github.com/gunthercox/ChatterBot). 
 
 # Quick Start
 Setting up sylla_bot is relatively simple. Even if you don't program, you will be able to follow the steps below to get your own syllabus into a workign chatbot. 
