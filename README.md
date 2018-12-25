@@ -2,7 +2,7 @@
 
 #### [Live Example](https://digitalrhetoric-syllabot.herokuapp.com) 
 
-<iframe src="https://digitalrhetoric-syllabot.herokuapp.com" height="125%" width="100%"></iframe>
+<iframe src="https://digitalrhetoric-syllabot.herokuapp.com" height="125px" width="100%"></iframe>
 
 This is a machine-learning assisted chatbot designed to learn your syllabus and be able to answer questions from it. 
 
