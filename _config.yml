@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: sylla_bot
 description: A Bot that Can Answer Questions about Your Syllabus! 
+github:
+  is_project_page: false
