@@ -76,13 +76,8 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 11.On line 9 of `app.py` replace `True` to `False` within `read_only=True,` and save it
 
 ### Part II
-1.Find the "Terminal application on your computer 
-2. Open Terminal and enter the following commands, one at a time
-```
-cd desktop
-cd sylla_bot
-pip install -r requirements.txt
-```
+1. Find the "Terminal application on your computer 
+2. Open Terminal and enter the following commands, one at a time 
 3. After your software is done downloading, enter the following command
 ```
 python app.py
