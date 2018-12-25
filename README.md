@@ -11,7 +11,8 @@ Setting up sylla_bot is relatively simple. Even if you don't program, you will b
 
 #### Things You Will Need Before Starting
 1. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
-2. A [Heroku](https://heroku.com) account.
+2. A [GitHub](https://github.com) account. 
+3. A [Heroku](https://heroku.com) account.
 
 ## Formatting the Syllabus
 This might sound redundant, especially if you're like me and spend hours putting in headings and lists to make your syllabi readable. But, because we'll be rendering our syllabus into little chunks to be repeated by the bot, we'll need to help the bot do its job. 
@@ -55,8 +56,50 @@ Topic: <br>Defining Digital Rhetoric (F2F)<br><br>Readings: <br>Hahn, L. K. & Pa
 Week 2 January 14
 Topic: <br>Asking Questions about Digital Rhetoric (At Home)<br><br>Readings: <br>Gunkel, D. (2018). Critique of digital reason. In Theorizing Digital Rhetoric. <br>Ceccarelli, L. The Ends of Rhetoric: Aesthetic, Political, Epistemic. In Making and Unmaking the Prospects for Rhetoric. Lawrence Erlbaum Associates, 65-73. <br>Eyman, D. (2015). Defining and locating digital rhetoric. In Digital Rhetoric: Theory, Method, Practice. University of Michigan Press, 12-60. <br><br>Assignments: <br>Science, Art, or Politics Survey <br>Set up Issue Crawler and Google <br>Post Draft of Artifact Proposal <br>Reading Quiz 2
 ```
-
 Find a complete example of a syllabus `.txt` file at the bottom of this page. 
+
+## Getting Code from GitHub and Training the Bot 
+
+### Part I
+1. Sign into your GitHub account
+2. Go to [this](https://github.com/milesccoleman/sylla_bot) repository
+3. Click "Fork"
+4. Go to your repositories list, find the sylla_bot repository
+5. Click "Download Zip"
+6. Unzip the file so that it is on the desktop
+7. Delete the file `db.sqlite3`
+8. Open the file `chats.txt` in a text editor 
+9. Replace the text in that file with your pre-formatted syllabus content and save it 
+10.Open `app.py`
+11.On line 9 of `app.py` replace `True` to `False` within `read_only=True,` and save it
+
+### Part II
+1.Find the "Terminal application on your computer 
+2. Open Terminal and enter the following commands, one at a time
+```
+cd desktop
+cd sylla_bot
+pip install -r requirements.txt
+```
+3. After your software is done downloading, enter the following command
+```
+python app.py
+```
+4. After the bot is done training, go back to `app.py`
+5. On line 9 of `app.py` put `False` back to `True` within `read_only=False,` and save it
+
+## Putting the Bot Code back no GitHub
+1. Go back to your sylla_bot repository on GitHub
+2. Click on `db.sqlite3`
+3. Delete `db.sqlite3`
+4. Click on `chats.txt`
+5. Delete `chats.txt`
+6. Click on `app.py`
+7. Delete `app.py`
+8. From the folder on your desktop, drag and drop your own `db.sqlite3`, `chats.txt`, and `app.py` files
+9. "Commit" the additions of these files
+10.Click "Clone or download" 
+11.Copy the clone URL, you'll need it for our next step
 
 ## Deploying to Heroku
 
@@ -69,72 +112,13 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 6. Click on "Settings" 
 7. Click "Add buildpack" 
 8. Click "Python" 
-9. Click "More" --> "Run console" 
-10. Enter the following command
-```
-bash
-```
-11. After the Bash console (i.e., "$") opens, enter the following commands, one at a time
-```
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
-git clone https://github.com/milesccoleman/sylla_bot.git
-cd sylla_bot
-pip install -r requirements.txt
-```
-
-### Part II
-1. Go back to the "Files" tab 
-2. Navigate to and click on `sylla_bot/`
-3. Open `chats.txt`
-4. Replace the contents of `chats.txt` with your own formatted syllabus content
-5. Click "Save" 
-
-### Part II
-1. Go back to the "Files" tab 
-2. Navigate to and click on `sylla_bot/`
-3. Open `chats.txt`
-4. Replace the contents of `chats.txt` with your own formatted syllabus content
-5. Click "Save" 
-
-### Part III
-1. Navigate to the "Consoles" tab
-2. Open another "Bash" console and enter the following commands
-```
-cd sylla_bot
-python3 app.py
-```
-
-
-After you all finished formatting, save your text file as `chats.txt`.
-//make new PythonAnywhere app
-//add new app
-//select Flask - Python 3.6
-//change the "mysite" portion of /home/youraccountname/mysite/flask_app.py to "syllabot"
-//change the "flask_app.py" portion of /home/youraccountname/mysite/falsk_app.py to "app.py"
-//click next
-//after your app is made, go to the "files" tab
-//navigate to the file that is named "syllabot" and delete it
-//open a bash console on PythonAnywhere and run the following commands:
-
-git clone https://github.com/milesccoleman/syllabot.git syllabot
-cd syllabot
-pip install -r requirements.txt
-pip install chatterbot
-
-
-//navigate to the file "syllabot"
-//open requirements.txt
-//replace "chatterbot>=0.7.1" to "chatterbot==0.7.4"
-//save that file
-//go back to the bash console, and enter the following commands:
-
-cd syllabot
-pip3 install --user -r requirements.txt
-
-//go back to the web tab for your app
-//click "reload"
-//navigate to the site URL to see if your bot lives
+9. Go to the "Deploy" tab
+10.Under "Deployment method," click "GitHub"
+11.Put in your GitHub account details for your sylla_bot repository
+12.Click "Connect" 
+13.Click "Deploy branch" 
+14.Your bot should install and deploy automatically
+15."View" the bot, and copy the URL--you now have your very own syllabus chatbot
 
 ## Example Syllabus Formatting
 
