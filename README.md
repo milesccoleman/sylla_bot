@@ -1,3 +1,5 @@
+[home](https://milesccoleman.com)
+
 This is a machine-learning assisted chatbot designed to learn your syllabus and be able to answer questions from it. 
 
 Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/chamkank/flask-chatterbot) of [ChatterBot](https://github.com/gunthercox/ChatterBot). 
