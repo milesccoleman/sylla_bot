@@ -9,7 +9,7 @@ This is a machine-learning assisted chatbot designed to learn your syllabus and 
 Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/chamkank/flask-chatterbot) of [ChatterBot](https://github.com/gunthercox/ChatterBot). 
 
 # Quick Start
-Setting up sylla_bot is relatively simple. Even if you don't program, you will be able to follow the steps below to get your own syllabus into a workign chatbot. 
+Setting up sylla_bot is relatively simple. Even if you don't program, you will be able to follow the steps below to get your own syllabus into a working chatbot. 
 
 #### Things You Will Need Before Starting
 1. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
@@ -72,8 +72,8 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 7. Delete the file `db.sqlite3`
 8. Open the file `chats.txt` in a text editor 
 9. Replace the text in that file with your pre-formatted syllabus content and save it 
-10.Open `app.py`
-11.On line 9 of `app.py` replace `True` to `False` within `read_only=True,` and save it
+10. Open `app.py`
+11. On line 9 of `app.py` replace `True` to `False` within `read_only=True,` and save it
 
 ### Part II
 1. Find the "Terminal application on your computer 
@@ -95,8 +95,8 @@ python app.py
 7. Delete `app.py`
 8. From the folder on your desktop, drag and drop your own `db.sqlite3`, `chats.txt`, and `app.py` files
 9. "Commit" the additions of these files
-10.Click "Clone or download" 
-11.Copy the clone URL, you'll need it for our next step
+10. Click "Clone or download" 
+11. Copy the clone URL, you'll need it for our next step
 
 ## Deploying to Heroku
 
@@ -110,12 +110,12 @@ python app.py
 7. Click "Add buildpack" 
 8. Click "Python" 
 9. Go to the "Deploy" tab
-10.Under "Deployment method," click "GitHub"
-11.Put in your GitHub account details for your sylla_bot repository
-12.Click "Connect" 
-13.Click "Deploy branch" 
-14.Your bot should install and deploy automatically
-15."View" the bot, and copy the URL--you now have your very own syllabus chatbot
+10. Under "Deployment method," click "GitHub"
+11. Put in your GitHub account details for your sylla_bot repository
+12. Click "Connect" 
+13. Click "Deploy branch" 
+14. Your bot should install and deploy automatically
+15. "View" the bot, and copy the URL--you now have your very own syllabus chatbot
 
 ## Example Syllabus Formatting
 
