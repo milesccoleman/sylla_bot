@@ -11,7 +11,7 @@ Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/cha
 # Quick Start
 Setting up sylla_bot is relatively simple. Even if you don't program, you will be able to follow the steps below to get your own syllabus into a working chatbot. 
 
-### Things You Will Need Before Starting
+## Things You Will Need Before Starting
 1. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
 2. A [GitHub](https://github.com) account. 
 3. A [Heroku](https://heroku.com) account.
