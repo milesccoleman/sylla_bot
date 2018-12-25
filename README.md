@@ -1,6 +1,6 @@
 [home](https://milesccoleman.com)
 
-#### Live Example 
+#### [Live Example](https://digitalrhetoric-syllabot.herokuapp.com) 
 
 <iframe src="https://digitalrhetoric-syllabot.herokuapp.com" height="100%" width="100%"></iframe>
 
