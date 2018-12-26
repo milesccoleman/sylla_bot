@@ -14,10 +14,10 @@ Setting up sylla_bot is relatively simple. Even if you don't program, you will b
 _Note: These instructions are written for people with little to no programming knowledge. As such, if you do program, you will notice that they sidestep the need to use the Git CLI. This is on purpose._  
 
 ## Things You Will Need Before Starting
-1. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
+1. A text editor, such as [BBEdit](https://www.barebones.com/products/bbedit/). 
 2. A [GitHub](https://github.com) account. 
 3. A [Heroku](https://heroku.com) account.
-4. A text editor, such as [BBEdit](https://www.barebones.com/products/bbedit/). 
+4. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
 
 ## Formatting the Syllabus
 This might sound redundant, especially if you're like me and spend hours putting in headings and lists to make your syllabi readable. But, because we'll be rendering our syllabus into little chunks to be repeated by the bot, we'll need to help the bot do its job. 
