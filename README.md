@@ -8,10 +8,10 @@ This is a machine-learning assisted chatbot designed to learn your syllabus and 
 
 Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/chamkank/flask-chatterbot) of [ChatterBot](https://github.com/gunthercox/ChatterBot). 
 
-_Note: These instructions are written for people who do not program. If you already use the Git CLI, keep this in mind._  
-
 # Quick Start
 Setting up sylla_bot is relatively simple. Even if you don't program, you will be able to follow the steps below to get your own syllabus into a working chatbot. 
+
+_Note: These instructions are written for people who do not program. If you already use the Git CLI, keep this in mind._  
 
 ## Things You Will Need Before Starting
 1. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
