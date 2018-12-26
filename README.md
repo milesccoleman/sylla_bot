@@ -81,8 +81,11 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 ### Part II
 1. Find the "Terminal application on your computer 
 2. Open Terminal and enter the following commands, one at a time 
-3. After your software is done downloading, enter the following command
+3. After your software is done downloading, enter the following commands, one at a time
 ```
+cd desktop
+cd sylla_bot
+pip install -r requirements.txt
 python app.py
 ```
 4. After the bot is done training, go back to `app.py`
