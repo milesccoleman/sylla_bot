@@ -28,7 +28,7 @@ First, you'll need to "chunk" your syllabus content onto complementary lines. Th
 So, if I have a `.txt` file of my syllabus, and in that file I have the instructor's name, and I want to make that accessible when someone eventually asked the bot who teaches the course, I would put the following in my text file. 
 
 ```
-Who instructor professor teacher teaches  
+Who is instructor professor teacher teaches  
 Dr. Miles Coleman
 ```
 
