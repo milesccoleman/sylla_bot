@@ -17,7 +17,7 @@ Setting up sylla_bot is relatively simple. Even if you don't program, you will b
 3. A [Heroku](https://heroku.com) account.
 4. Your syllabus, ideally broken up with descriptive headings and saved as a `.txt` file. 
 
-_Note: These instructions are written for people with little to no programming knowledge. As such, if you do program, you will notice that they sidestep the need to use Git and Heroku CLIs. This is on purpose._  
+_Note: These instructions are written for people with little to no programming knowledge. As such, if you do program, you will notice that the directions sidestep the need to use Git and Heroku CLIs. This is on purpose._  
 
 ## Formatting the Syllabus
 This might sound redundant, especially if you're like me and spend hours putting in headings and lists to make your syllabi readable. But, because we'll be rendering our syllabus into little chunks to be repeated by the bot, we'll need to help the bot do its job. 
