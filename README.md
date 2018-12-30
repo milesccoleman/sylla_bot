@@ -75,31 +75,30 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 7. Delete the file `db.sqlite3`
 8. Open the file `chats.txt` in a text editor 
 9. Replace the text in that file with your pre-formatted syllabus content and save it 
-10. Open `app.py`
+10. Open `app.py` in a text editor
 11. On line 9 of `app.py` replace `True` to `False` within `read_only=True,` and save it
 
 ### Part II
-1. Find the "Terminal application on your computer 
+1. Find the Terminal application on your computer 
 2. Open Terminal and enter the following commands, one at a time 
-3. After your software is done downloading, enter the following commands, one at a time
 ```
 cd desktop
 cd sylla_bot
 pip install -r requirements.txt
 python app.py
 ```
-4. After the bot is done training, go back to `app.py`
-5. On line 9 of `app.py` put `False` back to `True` within `read_only=False,` and save it
+3. After the bot is done training, go back to `app.py` in your text editor
+4. On line 9 of `app.py` put `False` back to `True` within `read_only=False,` and save it
 
-## Putting the Bot Code back no GitHub
+## Putting the Bot Code Back Onto GitHub
 1. Go back to your sylla_bot repository on GitHub
 2. Click on `db.sqlite3`
-3. Delete `db.sqlite3`
+3. Delete `db.sqlite3` from GitHub
 4. Click on `chats.txt`
-5. Delete `chats.txt`
+5. Delete `chats.txt` from GitHub
 6. Click on `app.py`
-7. Delete `app.py`
-8. From the folder on your desktop, drag and drop your own `db.sqlite3`, `chats.txt`, and `app.py` files
+7. Delete `app.py` from GitHub
+8. From the folder on your desktop, drag and drop your own `db.sqlite3`, `chats.txt`, and `app.py` files to your GitHub Repsitory
 9. "Commit" the additions of these files
 10. Click "Clone or download" 
 11. Copy the clone URL, you'll need it for our next step
