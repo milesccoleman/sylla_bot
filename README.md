@@ -1,4 +1,4 @@
-[home](https://milesccoleman.com)
+[Home](https://milesccoleman.com)
 
 #### [Live Example](https://digitalrhetoric-syllabot.herokuapp.com) 
 
