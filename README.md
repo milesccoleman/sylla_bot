@@ -84,6 +84,7 @@ _Note: These instructions are for Mac OS_
 
 1. Find the [Terminal](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line") 
 2. Open Terminal and enter the following command, 
+
 ```
 sudo easy_install pip
 ```
