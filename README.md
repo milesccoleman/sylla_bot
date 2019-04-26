@@ -79,8 +79,12 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 11. On line 9 of `app.py` replace `True` to `False` within `read_only=True,` and save it
 
 ### Part II
-1. Find the Terminal application on your computer 
-2. Open Terminal and enter the following commands, one at a time 
+1. Find the [Terminal](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line") _Note: These instructions are for Mac_
+2. Open Terminal and enter the following command, 
+```
+sudo easy_install pip
+```
+After Pip has installed, enter each of the following commands, one at a time 
 ```
 cd desktop
 cd sylla_bot
