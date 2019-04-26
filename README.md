@@ -80,7 +80,7 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 
 ### Part II
 
-_Note: These instructions are for Mac_
+_Note: These instructions are for Mac OS_
 
 1. Find the [Terminal](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line") 
 2. Open Terminal and enter the following command, 
