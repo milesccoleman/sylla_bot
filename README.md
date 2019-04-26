@@ -79,7 +79,10 @@ Find a complete example of a syllabus `.txt` file at the bottom of this page.
 11. On line 9 of `app.py` replace `True` to `False` within `read_only=True,` and save it
 
 ### Part II
-1. Find the [Terminal](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line") _Note: These instructions are for Mac_
+
+_Note: These instructions are for Mac_
+
+1. Find the [Terminal](https://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line") 
 2. Open Terminal and enter the following command, 
 ```
 sudo easy_install pip
