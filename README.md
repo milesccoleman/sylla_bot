@@ -112,8 +112,6 @@ python app.py
 11. Copy the clone URL, you'll need it for our next step
 
 ## Deploying to Heroku
-
-### Part I
 1. Open your Heroku dashboard
 2. Click "New" --> "Create new app"
 3. Name your app anything you want. I've chosen "syllabusbot" 
