@@ -42,7 +42,7 @@ Week 1 January 7
 Topic: <br>Defining Digital Rhetoric (F2F)<br><br>Readings: <br>Hahn, L. K. & Paynton, S. T. . Rhetorical criticism. In Survey of Communication Study. <br>Deuze, M. (2006). Participation, remediation, bricolage: Considering principal components of a digital culture. The information society, 22(2), 63-75. <br>Hess, A. (2018 . Introduction: Theorizing digital rhetoric. In Theorizing Digital Rhetoric. <br><br>Assignments: <br>Community Activity 1 <br>Student Survey <br>Reading Quiz 1. 
 ```
 
-Because I want students to be able to ask what is due on a given week, as well as to be able to ask for a specific week of the term, I have included both of those nouns (i.e., "Week 1" and "Janurary 7") in the inquiry line.
+Because I want students to be able to ask what is due on a given week, as well as to be able to ask for a specific week of the term, I have included those sets of nouns (i.e., "Week 1" and "Janurary 7") in the inquiry line.
 
 Each of the `<br>`s helps to format my blob of content from the information chunk I've included. 
 
