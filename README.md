@@ -4,7 +4,7 @@
 
 <iframe src="https://digitalrhetoric-syllabot.herokuapp.com" height="275px" width="100%"></iframe>
 
-This is a machine-learning assisted chatbot designed to learn your syllabus and be able to answer questions from it. For instance, a user could enter, "Week 1" to see the assignments due that week.  
+This is a machine-learning assisted chatbot designed to learn your syllabus and be able to answer questions from it. For instance, a user could enter, "Week 1." When they do, the bot will return the assignments due that week.  
 
 Sylla_bot is built from chamkank's [Flask Implementation](https://github.com/chamkank/flask-chatterbot) of [ChatterBot](https://github.com/gunthercox/ChatterBot). 
 
